@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Explorer</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="link-left">
+            <a href="index.html" class="Logo"><h1>Project Explorer</h1></a>
+            <input type="text" placeholder="Search Projects">
+            <button>Search</button>
+            <a href="search.html">Projects</a>
+            <a href="createproject.html">Submit</a>
+        </div>
+        <div class="link-right">
+            <a href="login.html" class="login">Login</a>
+            <a href="register.html" class="register">Sign Up</a>
+        </div>
+    </header>
+    <main id="search">
+        <h2>Project Gallery</h2>
+        <form action="">
+            <input type="text" name="search_term" placeholder="Search Project Name, Authors, Abstract, Tags">
+            <div>
+            <p>Search by</p>
+            <select name="author_name" id="">
+                <option value="">Name</option>
+                <option value="Ade Bolade">Ade Bolade</option>
+                <option value="Brian Teleo">Brian Teleo</option>
+                <option value="James Correy">James Correy</option>
+            </select>
+            </div>
+            <input type="submit" value="Search">
+        </form>
+        <h3>Search Result</h3>
+        <section>
+        <article>
+            <h4>Project 4</h4>
+            <ul>
+                <li>Name : Project 4</li>
+                <li>Description : Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quaerat eum recusandae fugit provident. Reprehenderit harum quasi quo natus illum?</li>
+                <li>Program : Computer Science</li>
+                <li>Authors : Ade Ade, Brian James</li>
+                <li>Tags : #yaml, #ejs</li>
+            </ul>
+        </article>
+        </section>
+    </main>
+    <footer><p> Project Explorer &copy; 2020 &middot;</p> Edconnect</footer>
+</body>
+</html>

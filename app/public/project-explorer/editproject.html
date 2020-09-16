@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Explorer</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="link-left">
+            <a href="index.html" class="Logo"><h1>Project Explorer</h1></a>
+            <input type="text" placeholder="Search Projects">
+            <button>Search</button>
+            <a href="search.html">Projects</a>
+            <a href="createproject.html">Submit</a>
+        </div>
+        <div class="link-right">
+            <a href="login.html" class="login">Login</a>
+            <a href="register.html" class="register">Sign Up</a>
+        </div>
+    </header>
+    <main id="editproject">
+        <h3>Project 4</h3>
+        <ul>
+            <li>Created By <br> Ade Ade</li>
+            <li>Date Created <br> 03/03/2020</li>
+            <li>Last Updated <br> 04/04/2020</li>
+        </ul>
+        <a href="viewproject.html">View Project</a>
+        
+        
+        <form action="">
+            <div>
+            <h4>Edit Project</h4>
+            <p>Project Name</p>
+            <input type="text" name="title" value="Project 4">
+            <p>Project Abstract</p>
+            <textarea name="abstract" id="" cols="30" rows="3">lorem ipsum dolor sit amet,Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur ad impedit dolor, quod voluptas non esse repudiandae dolorem temporibus atque reiciendis rem eveniet possimus. Sequi harum modi nihil. Repellat minus, officia voluptate itaque perferendis officiis.s</textarea>
+            <p>Author(s)</p>
+            <input type="text" name="author" value="Ade Ade, Brian James">
+            <p>Tag(s)</p>
+            <input type="text" name="tags" value="#yaml, #ejs">
+            </div>
+            
+            <div>
+            <h4>Manage Project files</h4>
+            <input type="file" name="project_file">
+            <div class="upload">
+                <h4>Project files</h4>
+                <p>No file uploaded yet</p>
+            </div>
+            </div>
+            
+            <input type="submit" value="Submit">
+        </form>
+        
+    </main>
+    <footer><p> Project Explorer &copy; 2020 &middot;</p> Edconnect</footer>
+</body>
+</html>

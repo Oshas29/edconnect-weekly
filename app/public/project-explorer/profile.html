@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Explorer</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="link-left">
+            <a href="index.html" class="Logo"><h1>Project Explorer</h1></a>
+            <input type="text" placeholder="Search Projects">
+            <button>Search</button>
+            <a href="search.html">Projects</a>
+            <a href="createproject.html">Submit</a>
+        </div>
+        <div class="link-right">
+            <a href="login.html" class="login">Login</a>
+            <a href="register.html" class="register">Sign Up</a>
+        </div>
+    </header>
+    <main id="profile">
+        <div class="details">
+        <h4>Ade Ade</h4>
+        <p>test@edconnect.ng</p>
+        </div>
+        <ul>
+            <li>Program <br> Computer Science</li>
+            <li>Matriculation number <br> 00/0000</li>
+            <li>Graduation Year <br> 2019</li>
+        </ul>
+        <form action="" >
+        <h3>Update Profile</h3>
+        <div class="update-profile">
+        <div class="first-name">
+        <p>First Name:</p>
+        <input type="text" name="first_name" value="Ade">
+        </div>
+        <div class="last-name">
+        <p>Last Name:</p>
+        <input type="text" name="last_name" value="Ade">
+        </div>
+        <div class="email">
+        <p>Email Address:</p>
+        <input type="email" name="email" value="test@edconnect.ng">
+        </div>
+        <div class="matric">
+        <p>Matric Number:</p>
+        <input type="text" name="matric_number" value="00/0000">
+        </div>
+        <div class="program">
+        <p>Program:</p>
+        <select name="program" id="">
+            <option value="computer_science">Computer Science</option>
+            <option value="computer_information_systems">Computer Information Systems</option>
+            <option value="computer_technology">Computer Technology</option>
+        </select>
+        </div>
+        <div class="year">
+        <p>Graduation Year:</p>
+        <select name="year" id="">
+            <option value="2020">2020</option>
+            <option value="2019">2019</option>
+            <option value="2018">2018</option>
+            <option value="2017">2017</option>
+            <option value="2016">2016</option>
+            <option value="2015">2015</option>
+            <option value="2014">2014</option>
+            <option value="2013">2013</option>
+            <option value="2012">2012</option>
+            <option value="2011">2011</option>
+            <option value="2010">2010</option>
+        </select>
+        </div>
+        <input type="submit" value="Update Profile">
+        </div>
+        
+        </form>
+        <form action="">
+            <h3>Change Password</h3>
+            <div class="change-password">
+            <div>
+            <p>Current Password:</p>
+            <input type="password" name="current_password">
+            </div>
+            <div>
+            <p>New Password:</p>
+            <input type="password" name="new_password">   
+            </div>
+            <div>
+            <p>Confirm Password:</p>
+            <input type="password" name="confirm_password">
+            </div>
+            <input type="submit" value="Change Password">
+        </div>
+        </form>
+    </main>
+    <footer><p> Project Explorer &copy; 2020 &middot;</p> Edconnect</footer>
+</body>
+</html>
