@@ -9,32 +9,35 @@
     <header>
         <h1>Project Explorer</h1>
         <h2>One Stop Database for Final Year Projects</h2>
+    </header>
+    <nav>
         <a href="index.html">Home</a>
         <a href="search.html">Projects</a>
-        <a href="createproject.html">Submit</a>
         <a href="login.html">Login</a>
         <a href="register.html">Register</a>
-    </header>
+        <a href="createproject.html">Submit</a>
+    </nav>
     <main>
-        <h4>Ade Bolade</h4>
-        <p>test@edconnect.ng</p>
-        <ul>
-            <li>Program : Computer Science</li>
-            <li>Matriculation number : 00/0000</li>
-            <li>Graduation Year : 2019</li>
-        </ul>
-        <form action="">
-            <h3>Update Profile</h3>
-        <p>First Name:</p>
-        <input type="text" name="first_name">
-        <p>Last Name:</p>
-        <input type="text" name="last_name">
-        <p>Email Address:</p>
-        <input type="email" name="email">
-        <p>Password:</p>
-            <input type="password" name="password">
+        <section>
+            <h4>Ade Bolade</h4>
+            <p>test@edconnect.ng</p>
+            <ul>
+                <li>Program : Computer Science</li>
+                <li>Matriculation number : 00/0000</li>
+                <li>Graduation Year : 2019</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Update Profile</h2>
+            <form action="" name="updateProfile">
+            <p>First Name:</p>
+            <input type="text" name="first_name">
+            <p>Last Name:</p>
+            <input type="text" name="last_name">
+            <p>Email Address:</p>
+            <input type="email" name="email">
             <p>Matric Number:</p>
-            <input type="number" name="matric_number">
+            <input type="text" name="matric_number">
             <p>Program:</p>
             <select name="program" id="">
                 <option value="computer_science">Computer Science</option>
@@ -58,18 +61,21 @@
             <br>
             <br>
             <input type="submit" value="Submit">
-        </form>
-        <form action="">
-            <h3>Change Password</h3>
-            <p>Current Password:</p>
-            <input type="password" name="current_password">
-            <p>New Password:</p>
-            <input type="password" name="new_password">   
-            <p>Confirm Password:</p>
-            <input type="password" name="confirm_password">
-            <br><br>
-            <input type="submit" value="Submit">
-        </form>
+            </form>
+        </section>
+        <section>
+            <h2>Change Password</h2>
+            <form action="" name="changePassword">
+                <p>Current Password:</p>
+                <input type="password" name="current_password">
+                <p>New Password:</p>
+                <input type="password" name="new_password">   
+                <p>Confirm Password:</p>
+                <input type="password" name="confirm_password">
+                <br><br>
+                <input type="submit" value="Submit">
+            </form>
+        </section>
     </main>
 </body>
 </html>
