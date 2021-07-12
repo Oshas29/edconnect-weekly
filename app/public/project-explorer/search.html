@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Project Explorer</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+    </head>
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-md navbar-dark bg-primary">
+                <a class="navbar-brand" href="index.html" >Project Explorer</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <form class="form-inline">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search Project" aria-label="Search">
+                    <button class="btn btn-outline-light" type="submit">Search</button>
+                </form>
+    
+                <ul class="navbar-nav">
+                    <div>
+                    <li class="nav-item"><a class="nav-link" href="createproject.html">Submit</a></li>
+                    </div>
+                    <div style="display:flex;">
+                    <li class="nav-item"><a class="nav-link" href="register.html">Sign up</a></li>
+                    <li class="nav-item"><a class="nav-link" href="login.html">Login</a></li>
+                    </div>
+                </ul>    
+                </div>
+            </nav>
+        </header>
+    <main class="container">
+        <section class="my-3">
+        <h3 class="my-4">Project Gallery</h3>
+        <div class="bg-light p-3">
+        <form action="">
+            <div class="form-row justify-content-between">
+            <input type="text" name="searchTerm" placeholder="Search project name, authors, abstract, tags" class="form-control form control-lg col-md-7">
+            <label class="form-label col-md-2 mt-2 text-right w-25">Search By</label>
+            <select name="searchType" id="" class="form-control col-md-1 w-50 ">
+                <option value="Name">Name</option>
+                <option value="Abstract">Abstract</option>
+                <option value="Authors">Authors</option>
+                <option value="Tags">Tags</option>
+            </select><br><br>
+            <input type="submit" value="Submit" class="btn btn-primary col-md-1 w-25 h-75">
+        </div>
+        </form>
+        </div>
+        </section>
+        <section>
+            <div class="row mb-4">
+        <h4>All Projects</h4>
+        <h6 class="text-muted mt-2">(0 results)</h6>
+        </div>
+        <div class="row mb-4">
+        <div class="col-md-3 card mr-2">   
+            <div class="card-body">
+                <h4 class="card-title text-primary">Project Title</h4>
+                <p class="card-subtitle">Author 1, Author 2</p>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid illum in illo neque atque sit pariatur. Numquam est eaque exercitationem totam. Labore, consequatur! Architecto magnam, quis veritatis laudantium corporis debitis!</p>
+                    <a href="#" class="card-link">#Computer Science</a>
+                    <a href="#" class="card-link">#2019</a>
+                </div>
+        </div>
+        <div class="col-md-3 card mr-2">   
+            <div class="card-body">
+                <h4 class="card-title text-primary">Project Title</h4>
+                <p class="card-subtitle">Author 1, Author 2</p>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid illum in illo neque atque sit pariatur. Numquam est eaque exercitationem totam. Labore, consequatur! Architecto magnam, quis veritatis laudantium corporis debitis!</p>
+                    <a href="#" class="card-link">#Computer Science</a>
+                    <a href="#" class="card-link">#2019</a>
+                </div>
+        </div>
+        </div>
+        </section>
+    </main>
+    <footer>
+        <div class="text-right p-3 my-0 mx-md-5"style="background-color: rgba(0, 0, 0, 0.05);">
+            Project Explorer © 2020 Edconnect
+        </div>
+    </footer>
+</body>
+</html>

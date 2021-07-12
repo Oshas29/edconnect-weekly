@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Project Explorer</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+    </head>
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-md navbar-dark bg-primary">
+                <a class="navbar-brand" href="index.html" >Project Explorer</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <form class="form-inline">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search Project" aria-label="Search">
+                    <button class="btn btn-outline-light" type="submit">Search</button>
+                </form>
+    
+                <ul class="navbar-nav">
+                    <div>
+                    <li class="nav-item"><a class="nav-link" href="createproject.html">Submit</a></li>
+                    </div>
+                    <div style="display:flex;">
+                    <li class="nav-item"><a class="nav-link" href="register.html">Sign up</a></li>
+                    <li class="nav-item"><a class="nav-link" href="login.html">Login</a></li>
+                    </div>
+                </ul>    
+                </div>
+            </nav>
+        </header>
+    <main class="container my-5">
+        <section class="container">
+            <h3>Project 1</h3>
+            <div class="row d-flex justify-content-around py-2 bg-light">
+                <div class="column">
+                <p>Created By <br> Ade Chris</p>
+                </div>
+                <div class="column">
+                <p>Date Created <br> 2020-08-03</p>
+                </div>
+                <div class="column">
+                <p>Last Updated <br> 2020-08-30</p>
+                </div>
+                <div class="column ml-4">
+                    <a href="editproject.html" class="btn btn-primary">Edit Project</a>
+                </div>
+            </div>
+        </section>
+        <section class="my-4">
+            <div class="row">
+                <div class="col">
+            <h4>Project Abstract</h4>
+            <hr>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam nihil repellat quasi tenetur, deserunt itaque perferendis quia neque ex, minima libero ea alias doloribus ratione nobis, autem repellendus? Ea, vel architecto eius sapiente unde distinctio beatae? Nihil mollitia praesentium doloremque excepturi magni. Totam blanditiis ad quasi, doloribus dolor saepe architecto.</p>
+            <label for="">Comments</label>
+            <textarea name="" id="" rows="6" class="form-control" placeholder="Leave a comment"></textarea>
+            <input type="submit" class="btn btn-primary my-2" placeholder="Submit">
+            <hr>
+            <p class="text-center">No comments added yet</p>
+            </div>
+            <div class="col">
+            <h4>Project Details</h4>
+            <hr>
+            <div class="card mb-2">
+                <h5 class="card-header">Author(s)</h5>
+                <div class="card-body">
+                  <p class="card-text">Ade Chris</p>
+                </div>
+                <div class="card-footer text-muted">
+                    <a href="#">#web</a>
+                </div>
+              </div>
+            <div class="card">
+                <h5 class="card-header">Project Files</h5>
+                <div class="card-body text-center">
+                  <p class="card-text ">No Files uploaded yet</p>
+                </div>
+              </div>
+            </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="text-right p-3 my-0 mx-md-5"style="background-color: rgba(0, 0, 0, 0.05);">
+            Project Explorer © 2020 Edconnect
+        </div>
+    </footer>
+</body>
+</html>

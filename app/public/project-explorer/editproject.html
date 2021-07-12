@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Project Explorer</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+    </head>
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-md navbar-dark bg-primary">
+                <a class="navbar-brand" href="index.html" >Project Explorer</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <form class="form-inline">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search Project" aria-label="Search">
+                    <button class="btn btn-outline-light" type="submit">Search</button>
+                </form>
+    
+                <ul class="navbar-nav">
+                    <div>
+                    <li class="nav-item"><a class="nav-link" href="createproject.html">Submit</a></li>
+                    </div>
+                    <div style="display:flex;">
+                    <li class="nav-item"><a class="nav-link" href="register.html">Sign up</a></li>
+                    <li class="nav-item"><a class="nav-link" href="login.html">Login</a></li>
+                    </div>
+                </ul>    
+                </div>
+            </nav>
+        </header>
+    <main class="container my-5">
+        <section class="container">
+            <h3>Project 1</h3>
+            <div class="row d-flex justify-content-around py-2 bg-light">
+                <div class="column">
+                <p>Created By <br> Ade Chris</p>
+                </div>
+                <div class="column">
+                <p>Date Created <br> 2020-08-03</p>
+                </div>
+                <div class="column">
+                <p>Last Updated <br> 2020-08-30</p>
+                </div>
+                <div class="column ml-4">
+                    <a href="viewproject.html" class="btn btn-primary">View Project</a>
+                </div>
+            </div>
+        </section>
+        <section">
+            <div class="row">
+            <div class="col">
+            <form action="" name="editProject">
+                <h3>Edit Project</h3>
+                <hr>
+                <div class="form-group">
+                    <label class="form-label">Project Name</label>
+                    <input type="text" name="name" class="form-control">
+                    </div>
+                    <div class="form-group">
+                    <label class="form-label">Project Abstract</label>
+                    <textarea name="abstract" id="" class="form-control"></textarea>
+                    </div>
+                    <div class="form-group">
+                    <label class="form-label">Authors</label>
+                    <input type="text" name="authors" class="form-control">
+                    </div>
+                    <div class="form-group">
+                    <label class="form-label">Tag(s)</label>
+                    <input type="text" name="tags" class="form-control">
+                    </div>
+                    <input type="submit" value="Save" class="btn btn-primary">
+            </form>
+            </div>
+            <div class="col">
+                <h3>Manage Project Files</h3>
+                <hr>
+                <div class="input-group mb-3">
+                    <div class="custom-file">
+                      <input type="file" class="custom-file-input" id="inputGroupFile02">
+                      <label class="custom-file-label" for="inputGroupFile02" aria-describedby="inputGroupFileAddon02">Choose file</label>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <h5 class="card-header">Project Files</h5>
+                    <div class="card-body text-center">
+                      <p class="card-text ">No Files uploaded yet</p>
+                    </div>
+                  </div>
+            </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="text-right p-3 my-0 mx-md-5"style="background-color: rgba(0, 0, 0, 0.05);">
+            Project Explorer © 2020 Edconnect
+        </div>
+    </footer>
+
+</body>
+</html>
